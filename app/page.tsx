@@ -1,6 +1,7 @@
 import Header from '../components/header'
 import FixedButtons from '../components/fixedButtom'
 import Main from '../components/main'
+import Timeline from '../components/timeline'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Main />
       <FixedButtons />
+        <Timeline/>
     </>
   )
 }
